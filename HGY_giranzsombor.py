@@ -13,7 +13,7 @@ legutolso_ev = int(date_list[0][:4])
 for evszam in date_list:
     ev = int(evszam[:4])
     if ev > legutolso_ev:
-        legutolso_év = ev
+        legutolso_ev = ev
 print("Hány dátum volt 2000 előtt:", elott_2000_evszamok)
 print("Szeptember hónapra eső dátumok:", szemptember_honapok)
 print("A legutolsó év:", legutolso_ev)
